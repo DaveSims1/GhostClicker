@@ -1,0 +1,101 @@
+body{
+    background-color: #9091b7
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fffdfd;
+    text-shadow: 1px 1px 1px #ccc;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+header{
+    background-color: #360464;
+    margin-top: -33px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#pageContainer{
+    
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#scoreContainer{
+    display:inline-block;
+}
+
+#bgContainer{
+    background-image:url("images/background.jpg");
+    height: 600px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+#ghost{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: #f44336;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+  }
+
+button:hover{
+    background-color: #FF9999;
+    border: 2px solid black;
+}
+
+#scoreContainer{
+    font-size: large;
+    color: #ff0000;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+#score{
+    padding:10px;
+    margin-left: 500px;
+    font-size: 20px;
+    position: relative;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    font-family: Calibri;
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    border-style: hidden;
+    border-width: thin;
+    background-color: #FFA8AE;
+    color: #FFFFFF;
+}
+
+.footerContainer{
+    text-align: center;
+    margin-bottom: auto;
+}

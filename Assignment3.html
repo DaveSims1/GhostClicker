@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment 3 - Bug Clicker</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Assignment3CS.css" type="text/css">
+        <script src="Assignment3JS.js" defer></script>
+        <!--Created by David Sims on March 12th 2023-->
+    </head>
+    <body>
+        <!--Header with buttons for reseting speed and score-->
+        <header>
+            <h1>Ghost Clicker</h1>   
+        </header>
+        <div id="pageContainer">    
+            <!--Buttons for resetting score and the speed-->
+            <button onclick="scoreReset()" type="button">Reset Score</button>
+            <button onclick="speedReset()" type="button">Reset Speed</button>
+
+            <!--The score number-->
+            <span id="scoreContainer">0</span>
+
+            <!--Images for the background the bug appears on-->
+            <div id="bgContainer">
+                <img id="ghost" src="images/ghost2.png" alt="Ghost Click!" width="170px" height="140px">
+            </div>
+
+            <!--Footer-->
+            <div class="footerContainer">
+                <footer class="footerText">
+                    <h6 class="copyright">©&nbsp;&nbsp; Copyright David Sims, 301268408, Software Engineering and Technology, Semester 2</h6>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
